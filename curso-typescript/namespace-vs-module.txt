@@ -1,0 +1,14 @@
+NAMESPACE
+	- A organizaçao e feita com base em objetos, o que torna uma organizaçao mais logica do que fisica.
+	- Pode ser separado em arquivos diferentes, tendo o mesmo namespace
+	- nao ha necessidade dde loaders, o proprio javascript interpreta
+	- Gerenciamento de dependencias torna-se complicado em aplicaçao grandes, porque os namespace sao globais pro projeto
+	- O namespace e bom para fugir do escopo global, assim evitando o comflito de nomes no projeto 
+
+MODULOS
+	- sao arquivos independentes que possuem seu proprio escopo interno
+	- a aplicaçao pode ter multiplos modulos
+	- E necessario um loaders, para transpila-lo para javascript
+	- declaração explícita das dependências
+
+
